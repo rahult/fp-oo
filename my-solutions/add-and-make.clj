@@ -104,6 +104,7 @@
   (fn [& args]
     (apply = args)))
 
+
 (equal-triangles? right-triangle right-triangle)
 (equal-triangles? right-triangle equal-right-triangle)
 (equal-triangles? right-triangle different-triangle)
